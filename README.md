@@ -11,5 +11,5 @@ Example
 
 plotVenn(cars, title = "Overlap between more cylinders\n and high efficiency in mtcars")`
 
-![./ExampleEulerPlot.jpeg](Example Euler Plot)
+![Example Euler Plot](ExampleEulerPlot.jpeg)
 
