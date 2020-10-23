@@ -5,11 +5,13 @@ Install with
 `devtools::install_github("gdmcdonald/plotVenn")`
 
 Example
-`cars <- mtcars %>%
+```r 
+cars <- mtcars %>%
  transmute(`High Efficiency` = mpg>20,
            `More Cylinders` = cyl>=6)
 
-plotVenn(cars, title = "Overlap between more cylinders\n and high efficiency in mtcars")`
+plotVenn(cars, title = "Overlap between more cylinders\n and high efficiency in mtcars")
+```
 
 ![Example Euler Plot](ExampleEulerPlot.jpeg)
 
