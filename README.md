@@ -1,6 +1,8 @@
 # plotVenn
 Wrapper to plot euler/venn diagram in R
 
+This package wraps up functions from the [eulerr](https://github.com/jolars/eulerr) package.
+
 Install with
 `devtools::install_github("gdmcdonald/plotVenn")`
 
