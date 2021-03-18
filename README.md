@@ -44,4 +44,4 @@ plotVenn(flowers,
          fills = c("lightgreen","lightgoldenrod","lightblue","lightpink"),
          edges = c("darkolivegreen","orange","blue","red"))
 ```
-![Example Colour Euler Plot on iris!](ExampleColours.jpg)
+![Example Colour Euler Plot on iris!](ExampleIris.jpg)
