@@ -12,7 +12,9 @@ plotVenn(
   input = "disjoint",
   control = list(),
   random_seed = 1,
-  legend = TRUE
+  legend = TRUE,
+  fills = TRUE,
+  edges = TRUE
 )
 }
 \arguments{
