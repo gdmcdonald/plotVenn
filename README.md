@@ -17,3 +17,12 @@ plotVenn(cars, title = "Overlap between more cylinders\n and high efficiency in 
 
 ![Example Euler Plot](ExampleEulerPlot.jpeg)
 
+
+More colours
+```r 
+plotVenn(cars, 
+        title = "Overlap between more cylinders\n and high efficiency in mtcars", 
+        fills = c("red","blue"),
+        edges = c("green","yellow"))
+```
+![Example Colour Euler Plot](ExampleColours.jpg)
