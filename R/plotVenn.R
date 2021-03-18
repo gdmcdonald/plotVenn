@@ -28,7 +28,9 @@ plotVenn <- function(df,
                      input = "disjoint",
                      control = list(),
                      random_seed = 1,
-                     legend = TRUE){
+                     legend = TRUE,
+                     fills = TRUE,
+                     edges = TRUE){
  #count elements
   venn_counts <-
     df %>%
@@ -78,5 +80,7 @@ plotVenn <- function(df,
        quantities = TRUE,
        legend = legend,
        labels = identical(legend, TRUE),
-       main = title)
+       main = title,
+       fills = fills,
+       edges = edges)
 }
