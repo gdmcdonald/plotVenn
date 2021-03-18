@@ -18,7 +18,21 @@ plotVenn(cars, title = "Overlap between more cylinders\n and high efficiency in 
 ![Example Euler Plot](ExampleEulerPlot.jpeg)
 
 
-More colours
+The table that was input, `cars`, looked like:
+
+|                  |  High Efficiency| More Cylinders|
+|------------------|-----------------|---------------|
+|Mazda RX4         |             TRUE|           TRUE|
+|Mazda RX4 Wag     |             TRUE|           TRUE|
+|Datsun 710        |             TRUE|          FALSE|
+|Hornet 4 Drive    |             TRUE|           TRUE|
+|Hornet Sportabout |            FALSE|           TRUE|
+|  .               |            .    |           .   |
+|  .               |            .    |           .   |
+|  .               |            .    |           .   |
+
+
+Example with more colours
 ```r 
 plotVenn(cars, 
         title = "Overlap between more cylinders\n and high efficiency in mtcars", 
