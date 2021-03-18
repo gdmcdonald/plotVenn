@@ -15,7 +15,7 @@ cars <- mtcars %>%
 plotVenn(cars, title = "Overlap between more cylinders\n and high efficiency in mtcars")
 ```
 
-![Example Euler Plot](ExampleEulerPlot.jpeg)
+![Example Euler Plot on mtcars](ExampleEulerPlot.jpeg)
 
 
 The table that was input, `cars`, looked like:
@@ -44,4 +44,4 @@ plotVenn(flowers,
          fills = c("lightgreen","lightgoldenrod","lightblue","lightpink"),
          edges = c("darkolivegreen","orange","blue","red"))
 ```
-![Example Colour Euler Plot](ExampleColours.jpg)
+![Example Colour Euler Plot on iris](ExampleColours.jpg)
