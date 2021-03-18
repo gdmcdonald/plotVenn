@@ -32,11 +32,16 @@ The table that was input, `cars`, looked like:
 |  .               |            .    |           .   |
 
 
-Example with more colours
+Example with more colours:
 ```r 
-plotVenn(cars, 
-        title = "Overlap between more cylinders\n and high efficiency in mtcars", 
-        fills = c("red","blue"),
-        edges = c("green","yellow"))
+flowers <- iris %>% 
+  transmute(`Short Petals` = Petal.Length<2.5,
+            `Long Sepals` = Sepal.Length>6,
+            `Virginica` = Species=="virginica")
+
+plotVenn(flowers, 
+         title = "Subgroups of Iris dataset", 
+         fills = c("lightgreen","lightgoldenrod","lightblue","lightpink"),
+         edges = c("darkolivegreen","orange","blue","red"))
 ```
 ![Example Colour Euler Plot](ExampleColours.jpg)
