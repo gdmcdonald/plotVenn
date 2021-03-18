@@ -46,7 +46,7 @@ plotVenn <- function(df,
     as.data.frame() %>%
     tibble::rownames_to_column(var = "name") %>%
     dplyr::mutate(dplyr::across(tidyselect::starts_with("V"),
-                                function(x){dplyr::if_else(x==1,name,"")})) %>%
+                                ~dplyr::if_else(.,name,""))) %>%
     dplyr::select(-name) %>%
     sapply(function(x){paste(stringi::stri_remove_empty(x),
                              collapse="&")})
