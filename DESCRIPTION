@@ -7,6 +7,11 @@ Authors@R:
            role = c("aut", "cre"),
            email = "gordon.mcdonald@sydney.edu.au",
            comment = c(ORCID = "0000-0002-2890-527X"))
+    person(given = "Henry",
+           family = "Lydecker",
+           role = c("aut", "cre"),
+           email = "henry.lydecker@sydney.edu.au",
+           comment = c(ORCID = "0000-0002-7798-0903"))
 Description: Makes easy Venn diagrams.
 License: MIT + file LICENSE
 Encoding: UTF-8
